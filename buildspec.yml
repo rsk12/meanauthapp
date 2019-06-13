@@ -11,6 +11,7 @@ phases:
       - echo Installing source NPM dependencies...
       - npm install
       - npm install unit.js
+      - npm install -g @angular/cli
   build:
     commands:
       - echo Build started on `date`
